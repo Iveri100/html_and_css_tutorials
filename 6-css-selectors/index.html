@@ -27,17 +27,21 @@
                 color: red;
                 text-align: center;
                 }  
-            .first + .item {
-                color: red;
-                }      
+            li:first-child {
+                color: green;
+                }   
+
+            li:last-child {
+                 color: red;
+                }    
         </style>
             <title>This is a title</title>
     </head>
     <body>
             <ul>
-                    <li class="first"></li>
-                    <li class="item"></li>
-                    <li class="item"></li>
+                    <li>First</li>
+                    <li>Second</li>
+                    <li>Third</li>
                   </ul>
 
         <h1>Hello World!</h1>
