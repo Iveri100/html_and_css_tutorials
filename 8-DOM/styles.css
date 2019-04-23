@@ -1,14 +1,31 @@
-*{
-    box-sizing: border-box;
+.example{
+    display: inline-block;
+    width:100px;
+    height:100px;
+    background-color: blue 
+}
+.example1{
+    display: inline-block;
+    width:100px;
+    height:100px;
+    background-color: blue 
+    
+}
+.example2{
+    display: inline-block;
+    width:100px;
+    height:100px;
+    background-color: blue 
 }
 
+.myTable{
+   display:table;
+}
 
-.example{
-    width:200px;
-    height:200px;
-    padding: 10px;
-    border: 5px solid green;
-    margin: 20px
+.myTable .myTr{
+    display:table-row;
+}
 
-
+.myTable .myTd{
+    display:table-cell;
 }
