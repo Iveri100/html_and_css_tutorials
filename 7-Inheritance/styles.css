@@ -5,3 +5,12 @@
 .text {
         border: 1px solid green;
     }
+    
+.text {
+        border: 1px solid green;
+    }
+    
+.text span {
+      border: inherit;
+    }
+   
