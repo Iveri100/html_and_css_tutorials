@@ -1,7 +1,11 @@
-a{
+nav a{
     display: block;
     height:100px;
     width: 30px;
     background:red;
     padding:10px;
+    margin-bottom:10px;
     }
+nav a:last-child{
+    margin-bottom: 0;
+}
