@@ -1,16 +1,9 @@
-.text {
-    color: green;
-    }
 
-.text {
-        border: 1px solid green;
+    
+.green {
+      color: green;
     }
     
-.text {
-        border: 1px solid green;
-    }
-    
-.text span {
-      border: inherit;
-    }
-   
+.blue {
+      color: blue;
+    }  
