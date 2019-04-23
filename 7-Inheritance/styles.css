@@ -1,7 +1,3 @@
-#item .green {
-    color: green;
-  }
-  
-  .parent .blue {
-    color: blue;
+.blue {
+    color: blue !important;
   }
