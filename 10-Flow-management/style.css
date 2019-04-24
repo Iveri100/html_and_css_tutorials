@@ -15,21 +15,20 @@ header,footer{
     clear: both;
 }
 
-.col1{
-    float:left;
-
-}
-
-.col2{
-    float:right;
-}
 
 .col3{
-    clear:both;
+    float:right;
     width: 300px;
-    margin: 0 auto 30px;
+    
 }
 
-.col1, .col2{
+.col1, .col2, .col3{
     width:200px;
+}
+
+.cell {
+    float:left;
+    margin-right:10px;
+    
+    margin-bottom:10px;
 }
