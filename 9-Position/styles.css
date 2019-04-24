@@ -1,16 +1,49 @@
-section{
-    position:relative;
-    margin: auto;
-    width: 600px;
-    height: 400px;
-    background:blue;
-}
-section div{
+.notification {
+    background-color: grey;
+    color: white;
+    text-decoration: none;
+    padding: 15px 26px;
+    position: relative;
+    display: inline-block;
+    border-radius: 2px;
+    border: 10px solid white;
+  }
+ .notification:hover {
+    background: red;
+  }
+  
+  .notification .badge {
     position: absolute;
-    top:50%;
-    left:50%;
-    width:200px;
-    height:50px;
-    background: white;
-    transform: translate(-50%, -50%);
-}
+    top: -10px;
+    right: -10px;
+    padding-left: 10px;
+    padding-right: 5px;
+    border-radius: 50%;
+    background: red;
+    color: white;
+  }
+  .notification1 {
+    background-color:grey;
+    color: white;
+    text-decoration: none;
+    padding: 15px 26px;
+    position: relative;
+    display: inline-block;
+    border-radius: 2px;
+    border: 10px solid white;
+  }
+  
+  .notification1:hover {
+    background: red;
+  }
+  
+  .notification1 .badge {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    padding-left: 10px;
+    padding-right: 5px;
+    border-radius: 25%;
+    background:red;
+    color: white;
+  }
