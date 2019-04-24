@@ -1,49 +1,20 @@
-.notification {
-    background-color: grey;
-    color: white;
-    text-decoration: none;
-    padding: 15px 26px;
-    position: relative;
-    display: inline-block;
-    border-radius: 2px;
-    border: 10px solid white;
+.alert {
+    padding: 20px;
+    background-color: white;
+    color: black;
+    margin-bottom: 15px;
+    border: 2px solid black;
   }
- .notification:hover {
-    background: red;
+.closebtn {
+    margin-left: 15px;
+    color: black;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 25px;
+    cursor: pointer;
+    transition: 0.3s;
   }
-  
-  .notification .badge {
-    position: absolute;
-    top: -10px;
-    right: -10px;
-    padding-left: 10px;
-    padding-right: 5px;
-    border-radius: 50%;
-    background: red;
-    color: white;
-  }
-  .notification1 {
-    background-color:grey;
-    color: white;
-    text-decoration: none;
-    padding: 15px 26px;
-    position: relative;
-    display: inline-block;
-    border-radius: 2px;
-    border: 10px solid white;
-  }
-  
-  .notification1:hover {
-    background: red;
-  }
-  
-  .notification1 .badge {
-    position: absolute;
-    top: -10px;
-    right: -10px;
-    padding-left: 10px;
-    padding-right: 5px;
-    border-radius: 25%;
-    background:red;
-    color: white;
+.closebtn:hover {
+    color: black;
   }
