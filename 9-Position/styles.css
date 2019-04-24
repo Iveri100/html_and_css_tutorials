@@ -1,20 +1,15 @@
-.alert {
-    padding: 20px;
-    background-color: white;
-    color: black;
-    margin-bottom: 15px;
-    border: 2px solid black;
+.line { 
+    display: block;
+    height:1px;
+    width:500px;
+    background-color: grey;
+    margin-top:100px;
   }
-.closebtn {
-    margin-left: 15px;
-    color: black;
-    font-weight: bold;
-    float: right;
-    font-size: 22px;
-    line-height: 25px;
-    cursor: pointer;
-    transition: 0.3s;
-  }
-.closebtn:hover {
-    color: black;
-  }
+.span{
+    position:absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%)
+    bgcolor:white;
+}
+
