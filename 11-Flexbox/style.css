@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+main{
+    display:flex;
+    margin: 0 auto;
+    flex-direction: column;
+}
+header {
+    background: gray;
+    width:100%;
+    height: 150px;
+    margin-bottom: 30px;
+
+}
+footer {
+    background: gray;
+    width:100%;
+    height: 150px;
+
+}
+.row {
+    display:flex;
+    height: 150px;
+    margin-bottom: 30px;
+
+}
+.row div {
+    background:gray;
+    
+}
+.second-row{
+    justify-content: center;
+}
+.col-1{
+    margin-right: 30px;
+}
+.col-1,.col-2{
+    flex-grow: 1;
+
+}
+
+.col-3{
+    width: 60%
+}
