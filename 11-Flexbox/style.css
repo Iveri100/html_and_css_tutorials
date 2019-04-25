@@ -36,10 +36,32 @@ main    {
 .col-2{
     display: flex;
     height: 150px;
+    width:300px;
     background-color: gray;
     flex-grow:2;
     margin-bottom:10px;
     margin-right:10px;
+   
+}
+
+.col-4{
+    display: flex;
+    height: 250px;
+    background-color: gray;
+    flex-grow:2;
+    margin-bottom:1px;
+    
+   
+}
+
+.col-7{
+    display: flex;
+    height: 150px;
+    width:400px;
+    background-color: gray;
+    
+    margin-bottom:10px;
+    
    
 }
 
