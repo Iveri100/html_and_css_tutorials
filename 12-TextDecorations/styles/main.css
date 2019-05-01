@@ -1,84 +1,84 @@
 * {
     box-sizing: border-box;
-    padding:0;
-    margin:0;
+    margin: 0;
+    padding: 0;
 }
+
+main {
+    width: 680px;
+    margin: 50px auto;
+}
+
 body {
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
 }
-main{
-    width:600px;
-    margin: 150px auto 0;
+
+article {
+    border: 1px solid #ECF0F1;
+    width: 100%;
+    padding: 20px 20px 0;
 }
 
-article{
-    width:100%;
-    height:640px;
-    border: solid 1px blue;
-    padding:20px 20px 0;
+.poster {
+    height: 350px;
+    width: 100%;
+    background-color: #A1B1BC;
+    margin-bottom: 14px;
 }
 
-article .poster{
-    width:500px;
-    height:350px;
-    background-color: grey;
-
-}
-article header {
-    border-bottom:solid grey;
-    padding-bottom:5px;
-}
-
-
-article header h1{
+.content header h1 {
+    color: #21C2F8;
     font-family: 'Lobster';
     font-size: 24px;
-    line-height: 30px;
-    color: blue;
-
 }
 
-article header p{
-    font-family: 'PT sans';
-    font-size: 14px; 
-    line-height: 30px;
-    color: grey;
-
-
+.content header p span {
+    font-family: 'PT Sans';
+    font-size: 14px;
+    line-height: 39px;
+    color: #707070;
 }
 
-article header p span::after {
-    content: '';
+.content header p span::after {
+    content: "";
     display: inline-block;
     width: 1px;
-    height:12px;
-    margin-left:13px;
+    height: 12px;
+    background-color: #EBEBEB;
+    margin-left: 7px;
     margin-right: 13px;
-    color:grey;
-
 }
 
-article header p span:last-child::after{
-    display:none;
+.content header p span:last-child::after {
+    display: none;
 }
 
-article .content .text p{
-    font-family: 'PT sans';
-    font-size:14px;
-    line-height:14px;
-    color:grey;
-
-
+.content header {
+    padding-bottom: 19px;
+    border-bottom: 1px solid #ECF0F1;
+    margin-bottom: 13px;
 }
 
-article .content a{
-    display:inline-block;
-    font-family: 'PT sans';
-    font-weight:bold;
-    font-size:14px;
-    line-height:24px;
-    color:blue;
-    text-decoration:none;
-    margin-bottom:20px;
+.text {
+    margin-bottom: 16px;
+}
+
+.text p {
+    font-family: 'PT Sans';
+    font-size: 14px;
+    color: #A1B1BC;
+    line-height: 24px;
+    margin-top: -11px;
+}
+
+.content a {
+    display: inline-block;
+    font-family: 'PT Sans';
+    font-size: 14px;
+    line-height: 24px;
+    color: #21C2F8;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-decoration: none;
 }
