@@ -1,0 +1,21 @@
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.gradient{
+    background:black;
+    height:100%;
+    width:100%;
+    position:absolute;
+    left:0;
+    top:0;
+    opacity: 0.6;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 170px;
+}

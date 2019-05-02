@@ -34,7 +34,7 @@ footer .top h3 {
     line-height: 24px;
     text-transform: uppercase;
     letter-spacing: 5px;
-    margin-bottom: 35px;
+    margin-bottom: 33px;
 }
 footer .top h3::after{
     content: "";
