@@ -19,3 +19,6 @@
     transform: translate(-50%, -50%);
     font-size: 170px;
 }
+.hero-image {
+    -webkit-filter: blur(10px);
+}
