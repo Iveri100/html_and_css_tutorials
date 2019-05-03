@@ -8,9 +8,13 @@ section{
     width:600px;
     height:600px;
     margin:50px  auto 0;
-    border:solid 1px red;
     display:grid;
-    grid-gap: 30px;
+    grid-gap: 3px;
+    grid-template-areas: "header header header"
+                          "menu menu sidebar" 
+                          "content-left content-right sidebar"
+                          "content-bottom footer footer";
+    grid-template-rows: 30px 100px repeat(2, 1fr);
 }
 
 
@@ -18,17 +22,31 @@ section div{
     background-color: aqua;
 }
 
-.col1{
-    grid-column: span 1;
+.header{
+    grid-area: header;
 }
 
-.col2{
-    grid-column: span 2;
+.menu{
+    grid-area: menu;
 }
 
-.col3{
-    grid-column: span 3;
+.sidebar{
+    grid-area: sidebar;
 }
-.row2{
-    grid-row: span 2;
+
+.content-left{
+    grid-area: content-left;
 }
+
+.content-right{
+    grid-area: content-right;
+}
+
+.content-bottom{
+    grid-area: content-bottom;
+}
+
+.content-left{
+    grid-area: footer;
+}
+
