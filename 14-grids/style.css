@@ -29,3 +29,6 @@ section div{
 .col3{
     grid-column: span 3;
 }
+.row2{
+    grid-row: span 2;
+}
