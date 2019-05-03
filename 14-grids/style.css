@@ -19,28 +19,11 @@ section div{
 }
 
 .header{
-    grid-column-start: 1;
-    grid-column-end: 3;
+    grid-column: 1/4;
 }
 
-.col1{
-    grid-column-start: 1;
-    grid-column-end: 2;
-}
-
-.col2{
-    grid-column-start: 2;
-    grid-column-end: 3;
-}
-
-.col3{
-    width:40%;
-    justify-self: center;
-    grid-column-start: 1;
-    grid-column-end: 3;
-}
 
 .footer{
-    grid-column-start: 1;
-    grid-column-end: 3;
+    grid-column: 1/4;
+
 }
