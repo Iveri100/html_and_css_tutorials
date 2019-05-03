@@ -18,12 +18,14 @@ section div{
     background-color: aqua;
 }
 
-.header{
-    grid-column: 1/4;
+.col1{
+    grid-column: span 1;
 }
 
+.col2{
+    grid-column: span 2;
+}
 
-.footer{
-    grid-column: 1/4;
-
+.col3{
+    grid-column: span 3;
 }
